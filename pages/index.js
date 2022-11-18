@@ -13,7 +13,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-        🦀 STM32 memory.x generator 🦀
+          🦀
+        </h1>
+        <h1 className={styles.title}>
+          STM32 memory.x generator
         </h1>
 
         <p className={styles.description}>
