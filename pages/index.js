@@ -13,11 +13,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          🦀 STM32 memory.x generator
+        🦀 STM32 memory.x generator 🦀
         </h1>
 
         <p className={styles.description}>
-           <code className={styles.code}>curl https://stm32.vercel.app/api/%chip% &gt; memory.x</code>
+          <code className={styles.code}>curl https://stm32.vercel.app/api/%chip% &gt; memory.x</code>
         </p>
 
         <p className={styles.examples}>
@@ -27,6 +27,15 @@ export default function Home() {
             <li><code className={styles.code}>curl https://stm32.vercel.app/api/stm32g031k8tx &gt; memory.x</code></li>
             <li><code className={styles.code}>curl https://stm32.vercel.app/api/stm32f103cbu6 &gt; memory.x</code></li>
           </ul>
+
+          Supported devices:
+          <ul>
+            <li><code className={styles.code}>curl https://stm32.vercel.app/api/db &#124; jq</code></li>
+          </ul>
+        </p>
+
+        <p className={styles.examples}>
+         
         </p>
       </main>
 
@@ -42,6 +51,6 @@ export default function Home() {
           </span>
         </a>
       </footer>
-    </div>
+    </div >
   );
 }
