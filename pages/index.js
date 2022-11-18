@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>🦀 STM32 memory.x generator</title>
-        <meta name="description" content="🦀 Generate memory.x for your STM32 Rust project" />
+        <meta name="description" content="Generate memory.x for your STM32 Rust project" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
