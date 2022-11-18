@@ -11,6 +11,6 @@ export default function handler(req, res) {
 MEMORY
 {
   FLASH : ORIGIN = 0x08000000, LENGTH = ${flash}
-  RAM : ORIGIN = 0x20000000, LENGTH = ${ram}
+  RAM :   ORIGIN = 0x20000000, LENGTH = ${ram}
 }`);
 }
